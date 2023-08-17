@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap");
+body{
+   background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50px;
+    background-attachment: fixed;
+   }
+   
+   *{
+       box-sizing: border-box;
+     }
+   
+   ul {
+       margin: 0;
+       padding: 0;
+       list-style-type: none;
+       overflow: hidden;
+       background-color: rgb(137, 8, 8);
+   }
+   
+   li{
+       float: left;
+       letter-spacing: 1px;
+       font-family: sans-serif;
+       color: black;
+   }
+   
+   li a{
+       display: block;
+       color: whitesmoke;
+       text-align: center;
+       padding: 10px 16px;
+       text-decoration: none;
+     
+       padding: 0px 16px;
+       margin: 10px;
+     
+       padding: 10px 16px;
+       margin: 0px 10px;
+   
+   }
+   
+   li a:hover {
+    background-color: rgb(0, 0, 0);
+    color: #f5f3f3;
+     }
+  /* /////////////Content/////////////////// */
+
+  #content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2%;
+    justify-items: center;
+  }
+  
+  .element {
+    width: 100%;
+    color: rgb(249, 249, 249);
+    margin: 0;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #212529;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .element:hover {
+    background-color: rgb(137, 8, 8);
+    border: 4px solid #212529;
+   
+  }
+  
+  .element img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  h4 {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 0;
+  }
+  
+  .element a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* Review Page */
+  ul a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container img {
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  .container h3 {
+    border-color: rgb(137, 8, 8);
+    border-radius: 5px;
+   border: 2px solid rgb(137, 8, 8);
+   border-width: 5px;
+   background-color: rgb(137, 8, 8);
+    color: rgb(255, 255, 255);
+    margin: 30px;
+    letter-spacing: 3px;
+    font-family: "Roboto Slab", serif;
+    font-weight:bolder;
+    font-size:xx-large
+  }
+  
+  .container p {
+    width: 600px;
+    color: rgb(253, 253, 253);
+    letter-spacing: 2px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    
+  }
